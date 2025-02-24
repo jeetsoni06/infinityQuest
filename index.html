@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <title>InfinityQuest-Lock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <select name="team" id="team">
+            <option value="">Select a Team</option>
+            <option value="teamIronman">Team Ironman</option>
+            <option value="teamCap">Team Captain America</option>
+            <option value="teamThor">Team Thor</option>
+            <option value="teamGOG">Team Guardians of the galaxy</option>
+            <option value="teamSpiderman">Team Spiderman</option>
+            <option value="teamDeadpool">Team Deadpool</option>
+        </select>
+
+        <div class="container-password" id="password-container" style="display:none;">
+            <input type="text" name="container-password" id="password" placeholder="Enter 4 digit code" autocomplete="off">
+            <button id="submit-btn" disabled>Submit</button>
+        </div>
+
+        <!-- Display result below the form -->
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

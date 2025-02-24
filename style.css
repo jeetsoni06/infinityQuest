@@ -1,0 +1,262 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    font-family: 'Arial', sans-serif;
+    background-color: #101010;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('https://your-background-image-url.com');  Add a Marvel background image 
+    background-size: cover;
+    background-position: center;
+} 
+.container {
+    background-color: rgba(30, 30, 30, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+select {
+    background-color: #333;
+    color: white;
+    border: 2px solid #ff6347;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 8px 3px #ff6347;
+}
+
+.container-password input {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #444;
+    background-color: #333;
+    color: white;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+.container-password input:focus {
+    outline: none;
+    box-shadow: 0 0 8px 3px #ff6347;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #e55347;
+}
+
+button:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+}
+
+.result {
+    margin-top: 30px;
+    color: #ff6347;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.result span {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.result span.green {
+    background-color: #28a745;
+}
+
+.result span.red {
+    background-color: #dc3545;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    select, .container-password input, button {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+        width: 100%;
+    }
+
+    select, .container-password input, button {
+        font-size: 14px;
+    }
+} */
+* {
+    font-family: 'Bangers', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bangers', cursive; /* Use a Marvel-themed font */
+    background-color: #0d0d0d; /* Dark background */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    text-align: center; /* Add a Marvel-themed background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(13, 13, 13, 0.9); /* Semi-transparent dark background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.6); /* Red shadow for Marvel vibe */
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #ff0000; /* Red border */
+}
+
+select {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff;
+    border: 2px solid #ff0000; /* Red border */
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    font-family: 'Bangers', cursive; /* Marvel-themed font */
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 8px 3px #ff0000; /* Red glow on focus */
+}
+
+.container-password input {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #ff0000; /* Red border */
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    font-family: 'Bangers', cursive; /* Marvel-themed font */
+}
+.container-password input::placeholder {
+    font-family: 'Bangers', cursive;
+}
+
+.container-password input:focus {
+    outline: none;
+    box-shadow: 0 0 8px 3px #ff0000; /* Red glow on focus */
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #ff0000; /* Red background */
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Bangers', cursive; /* Marvel-themed font */
+}
+
+button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+button:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+}
+
+.result {
+    margin-top: 30px;
+    color: #ff0000; /* Red text */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.result span {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.result span.green {
+    background-color: #28a745; /* Green for success */
+}
+
+.result span.red {
+    background-color: #dc3545; /* Red for error */
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    select, .container-password input, button {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+        width: 100%;
+    }
+
+    select, .container-password input, button {
+        font-size: 14px;
+    }
+}
