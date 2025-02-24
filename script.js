@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const enteredCode = passwordInput.value.trim();
 
         if (selectedTeam in teamCodes && enteredCode === teamCodes[selectedTeam]) {
-            resultDiv.innerHTML = "<span style='color: green;'>Congratulations!</span>";
+            resultDiv.innerHTML = "<span style='color: green;'>Avengers would be proud, congrats!</span>";
         } else {
             resultDiv.innerHTML = "<span style='color: red;'>Incorrect code. Try again!</span>";
         }
